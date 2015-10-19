@@ -1,0 +1,11 @@
+﻿<TypeColors>
+  <!-- Possible colors are: Yellow, Blue, Green, Red, Magenta or Orange -->
+  <typecolor type="Program epic"              color="Magenta"/>
+  <typecolor type="Architectural feature"     color="Red"/>
+  <typecolor type="Business feature"          color="Blue"/>
+  <typecolor type="Spike"                     color="Magenta"/>
+  <typecolor type="Technical story"           color="Green"/>
+  <typecolor type="User story"                color="Yellow"/>
+  <typecolor type="Other work item"           color="Blue"/>
+  <typecolor type="Nonfunctional requirement" color="Orange"/>
+</TypeColors>
