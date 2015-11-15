@@ -64,24 +64,6 @@ namespace Hansoft.Jean.Behavior.TypeColorBehavior
             get { return title; }
         }
 
-        // TODO: Subject to refactoting
-        private EHPMReportViewType GetViewType(string viewType)
-        {
-            switch (viewType)
-            {
-                case ("Agile"):
-                    return EHPMReportViewType.AgileMainProject;
-                case ("Scheduled"):
-                    return EHPMReportViewType.ScheduleMainProject;
-                case ("Bugs"):
-                    return EHPMReportViewType.AllBugsInProject;
-                case ("Backlog"):
-                    return EHPMReportViewType.AgileBacklog;
-                default:
-                    throw new ArgumentException("Unsupported View Type: " + viewType);
-            }
-        }
-
         private void DoUpdate()
         {
             if (initializationOK)
